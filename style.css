@@ -254,3 +254,33 @@ button {
 }
 
 
+/* Join Section */
+.join {
+  background: url('./B12A02-Responsive-Flowers-main/B12A02-Responsive-Flowers-main/assets/news-letter-bg.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 6rem 4rem 4rem 4rem;
+    font-size: xx-large;
+    margin: 0 auto;
+}
+.join-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  padding: 1rem;
+}
+.join-form input {
+  padding: 0.75rem;
+  border: none;
+  width: 60%;
+}
+.join-form button {
+  padding: 1rem 2rem;
+  background-color: #f58b01;
+  color: white;
+  border: none;
+  margin: 0 0.5rem ;
+
+}
+
+
