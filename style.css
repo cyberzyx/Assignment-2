@@ -4,3 +4,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.5rem;
+  max-height: 100px;
+}
+.logo {
+  width: 100px;
+  align-items: baseline;
+}
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 0 2rem;
+  font-weight: 700;
+}
+.cart-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 30px;
+}
+.nav-cart-mobile {
+  display: none;
+}
