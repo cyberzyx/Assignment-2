@@ -71,3 +71,42 @@ a {
     flex: 1;
 }
 
+
+/* Plants */
+.plants {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.plants h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.plants p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.plant-card {
+  padding: 1rem;
+}
+.plant-card button {
+  background-color: #f58b01;
+  color: white;
+  border: none;
+  padding: 1rem 6rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  font-size: 11px;
+}
