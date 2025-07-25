@@ -110,3 +110,56 @@ a {
   cursor: pointer;
   font-size: 11px;
 }
+
+
+/* Lover Section */
+.lover-container {
+  display: flex;
+  align-items: start;
+  padding: 40px 100px 40px 100px;
+}
+
+.lover-image-box {
+  position: relative;
+  flex: 1;
+}
+
+.main-img {
+  width: 60%;
+  display: block;
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.badge-img {
+  position: absolute;
+  bottom: 400px;
+  left: 330px;
+  width: 200px;
+  height: auto;
+}
+
+.lover-text {
+  flex: 0.5;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.lover-text h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.lover-text ul {
+  list-style-type: disc;
+  padding-right: 30px;
+  color: #555;
+}
+
+.lover-text li {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
