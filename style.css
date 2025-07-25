@@ -47,3 +47,27 @@ a {
 .nav-cart-mobile {
   display: none;
 }
+
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0%  3rem 2rem 7rem;
+}
+.banner-text {
+  flex: 1;
+  font-size: xx-large;
+}
+.banner-text p {
+  font-size: large;
+}
+
+.orange {
+  color: #f58b01;
+}
+
+.banner-image {
+    flex: 1;
+}
+
