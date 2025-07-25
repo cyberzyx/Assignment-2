@@ -284,3 +284,30 @@ button {
 }
 
 
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+  background: #f1f1f1;
+  
+}
+.footer-links {
+  list-style: none;
+  margin: 10px 20px 10px 20px;
+  padding: 2rem;
+}
+.footer-icons {
+  display: flex;
+  gap: 0.5rem;
+  padding: 2rem 5rem 2rem 5rem;
+  align-items: center;
+}
+.footer-left {
+  padding: 2rem 5rem 2rem 5rem;
+  font-size: large;
+  max-width: 400px;
+  text-align: left;
+}
